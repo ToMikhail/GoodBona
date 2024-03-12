@@ -1,0 +1,11 @@
+@import './../../../../styles/colors.scss';
+
+.list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+
+  .list-item {
+    color: $light-ternary-color;
+  }
+}
