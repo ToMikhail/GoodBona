@@ -1,0 +1,121 @@
+[
+  {
+    "group": "food",
+    "type": "frytki",
+    "name": "małe frytki",
+    "description": "pieczone ziemniaki / 100g",
+    "price": 9
+  },
+  {
+    "group": "food",
+    "type": "frytki",
+    "name": "duże frytki",
+    "description": "pieczone ziemniaki / 200g",
+    "price": 15
+  },
+  {
+    "group": "food",
+    "type": "smażone pielmieni z mięsem",
+    "name": "mała porcja",
+    "description": "Pierogi smażone na głębokim tłuszczu / 100g",
+    "price": 12
+  },
+  {
+    "group": "food",
+    "type": "smażone pielmieni z mięsem",
+    "name": "duża porcja",
+    "description": "Pierogi smażone na głębokim tłuszczu / 200g",
+    "price": 18
+  },
+  {
+    "group": "food",
+    "type": "czebureki",
+    "name": "czeburek z mięsem",
+    "description": "smaczne ciasto z soczystym mięsnym nadzieniem / 250g",
+    "price": 15
+  },
+  {
+    "group": "food",
+    "type": "czebureki",
+    "name": "czeburek z szynką i serem",
+    "description": "Pyszne ciasto z kremowym nadzieniem mięsnym / 250g.",
+    "price": 13
+  },
+  {
+    "group": "food",
+    "type": "Shawarmy z kurczaka",
+    "name": "Shawarma z kurczaka mała",
+    "description": "Pkurczak, sałata, ogórek, pomidor, marynowana cebula, sos opcjonalny (można dodawać dodatki) / 300g.",
+    "price": 15
+  },
+  {
+    "group": "food",
+    "type": "Shawarma z kurczaka",
+    "name": "Shawarmaz kurczaka duży",
+    "description": "Pkurczak, sałata, ogórek, pomidor, marynowana cebula, sos opcjonalny (można dodawać dodatki) / 450g.",
+    "price": 20
+  },
+  {
+    "group": "food",
+    "type": "Shawarma wołowa",
+    "name": "Shawarma wołowa mała",
+    "description": "swołowina, sałata, ogórek, pomidor, marynowana cebula, sos opcjonalny (można dodawać dodatki) / 300g.",
+    "price": 22
+  },
+  {
+    "group": "food",
+    "type": "Naleśniki z miesem",
+    "name": "Naleśniki z szynka i serem",
+    "description": "Każdy kęs to uczta dla kubków smakowych / 250g",
+    "price": 15
+  },
+  {
+    "group": "food",
+    "type": "Naleśniki z miesem",
+    "name": "Naleśniki z salami i serem",
+    "description": "Świetny wybór dla tych, którzy uwielbiają połączenie słonych i serowych smaków / 250g",
+    "price": 15
+  },
+  {
+    "group": "food",
+    "type": "Naleśniki z miesem",
+    "name": "Naleśniki z kurczkiem i pieczarkami",
+    "description": "Pyszne naleśniki z kurczakiem i pieczarkami - magiczne połączenie delikatnego ciasta i apetycznego nadzienia! / 250g",
+    "price": 15
+  },
+  {
+    "group": "food",
+    "type": "naleśniki na słodko",
+    "name": "naleśniki z twarogiem",
+    "description": "Pyszny naleśnik z kremowym, delikatnym nadzieniem twarogowym / 200g",
+    "price": 12
+  },
+  {
+    "group": "food",
+    "type": "naleśniki na słodko",
+    "name": "naleśnik ze słodkimi sosami",
+    "description": "naleśnik na słodko z syropem do wyboru / 120g",
+    "price": 8
+  },
+  {
+    "group": "food",
+    "type": "gofry",
+    "name": "gofry wiedeńskie",
+    "description": "Delikatne ciasto łączy się z waniliowym smakiem, a każdy kęs to mały kawałek radości / 100g",
+    "price": 12
+  },
+  {
+    "group": "food",
+    "type": "gofry",
+    "name": "gofry wiedeńskie z bitą śmietaną",
+    "description": "Delikatne ciasto łączy się z waniliowym smakiem, a każdy kęs to mały kawałek radości / 150g",
+    "price": 15
+  },
+  {
+    "group": "drinks",
+    "type": "gofry",
+    "name": "gofry wiedeńskie z bitą śmietaną",
+    "description": "Delikatne ciasto łączy się z waniliowym smakiem, a każdy kęs to mały kawałek radości / 150g",
+    "price": 15
+  }
+]
