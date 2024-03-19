@@ -1,6 +1,5 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ProductService } from '../../services/product.service';
 
 @Component({
   selector: 'app-main',
@@ -9,15 +8,6 @@ import { ProductService } from '../../services/product.service';
   templateUrl: './main.component.html',
   styleUrl: './main.component.scss',
 })
-export class MainComponent implements OnInit {
-  // public productService = inject(ProductService);
-  public products?: any;
-  constructor(private productService: ProductService) {}
+export class MainComponent {
 
-  ngOnInit(): void {
-    this.productService.getProductGroups().subscribe(groups => {
-      this.products = groups;
-      console.log('this.products: ', this.products);
-    })
-  }
 }

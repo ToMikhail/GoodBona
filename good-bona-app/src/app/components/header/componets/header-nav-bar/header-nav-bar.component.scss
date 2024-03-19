@@ -6,6 +6,46 @@
   list-style: none;
 
   .list-item {
-    color: $light-ternary-color;
+    .link.router-link-active {
+      background-position: 0;
+    }
+
+    .link {
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-weight: 600;
+      background-image: linear-gradient(to right,
+          $light-primary-color,
+          $light-primary-color 50%,
+          $light-main-color 50%);
+      background-size: 200% 100%;
+      background-position: -100%;
+      display: inline-block;
+      padding: 5px 0;
+      position: relative;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out;
+
+      &:before {
+        content: '';
+        background: $light-primary-color;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.3s ease-in-out;
+      }
+
+      &:hover {
+        background-position: 0;
+      }
+
+      &:hover::before {
+        width: 100%;
+      }
+    }
   }
 }

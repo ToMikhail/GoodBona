@@ -1,0 +1,8 @@
+<h2>Nasze menu:</h2>
+
+<div class="menu-wrapper">
+  <div class="menu-item" *ngFor="let product of products | async">
+    <img class="img menu-img" [src]="product.image" alt="">
+    <h3>{{ product.name }}</h3>
+  </div>
+</div>

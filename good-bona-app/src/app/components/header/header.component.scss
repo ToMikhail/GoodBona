@@ -3,10 +3,14 @@
 
 @import '../../styles/colors.scss';
 
+:host {
+  color: $light-main-color;
+}
+
 .header-outer {
   width: 100vw;
   height: 5rem;
-  background-color: $light-primary-color;
+  background-color: $dark-main-color;
   display: flex;
   justify-content: center;
 }

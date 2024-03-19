@@ -1,5 +1,12 @@
 
 @import '../../styles/colors.scss';
+
+
 :host {
-  background-color: $light-main-color;
+  width: 100%;
+  max-width: 1200px;
+  // height: calc(100vh - 8.5rem);
+  padding: 0 2.5rem;
+  display: flex;
+  justify-content: center;
 }

@@ -1,34 +1,34 @@
 [
   {
     "name": "frytki",
-    "image": "../img/ctnt/frytki.png"
+    "image": "../../../../../assets/img/ctnt/frytki.png"
   },
   {
     "name": "smażone pielmieni z mięsem",
-    "image": "../img/ctnt/pielmieni.png.png"
+    "image": "../../../../../assets/img/ctnt/pielmieni.png"
   },
   {
     "name": "czeburek",
-    "image": "../img/ctnt/czebureki.png.png"
+    "image": "../../../../../assets/img/ctnt/czebureki.png"
   },
   {
     "name": "Shawarma z kurczaka",
-    "image": "../img/ctnt/szawarma.png.png"
+    "image": "../../../../../assets/img/ctnt/szawarma.png"
   },
   {
     "name": "Shawarma wołowy",
-    "image": "../img/ctnt/szawarma2.png.png"
+    "image": "../../../../../assets/img/ctnt/szawarma2.png"
   },
   {
     "name": "Naleśniki z miesem",
-    "image": "../img/ctnt/nalesniki.png.png"
+    "image": "../../../../../assets/img/ctnt/nalesniki.png"
   },
   {
     "name": "naleśniki na słodko",
-    "image": "../img/ctnt/nalesniki2.png.png"
+    "image": "../../../../../assets/img/ctnt/nalesniki2.png"
   },
   {
     "name": "Gofry",
-    "image": "../img/ctnt/gofry.png.png"
+    "image": "../../../../../assets/img/ctnt/gofry.png"
   }
 ]
