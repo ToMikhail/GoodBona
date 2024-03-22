@@ -1,9 +1,51 @@
-ul {
-  list-style: none;
+@import '../../../../styles/colors.scss';
 
-  a {
+p {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  .link {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: #fff;
     font-size: small;
+    white-space: nowrap;
+    font-family: 'Source Sans 3';
+    transition: .3s;
+
+    &:hover {
+      color: $light-primary-color;
+    }
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .phone {
+    font-size: medium;
+  }
+
+  .link-phone::before {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../../../../../assets/img/icons/smartphone.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .text {
+    text-align: center;
+    color: $dark-ternary-color;
+    font-size: smaller;
   }
 }
