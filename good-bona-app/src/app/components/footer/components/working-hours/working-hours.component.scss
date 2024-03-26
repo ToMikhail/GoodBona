@@ -1,0 +1,14 @@
+@import "../../../../styles/colors.scss";
+
+.title {
+  text-align: center;
+}
+
+table {
+  font-size: smaller;
+  border-spacing: .75rem;
+
+  .name {
+    color: $dark-ternary-color;
+  }
+}

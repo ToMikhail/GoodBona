@@ -1,8 +1,33 @@
 @import '../../styles/colors.scss';
 
+:host {
+  color: $light-main-color;
+}
+
+.title {
+  text-align: center;
+}
+
+table {
+  font-size: smaller;
+  border-spacing: .75rem;
+
+  .contact-name {
+    color: $dark-ternary-color;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
 .footer-outer {
   width: 100vw;
-  height: 3.5rem;
   display: flex;
   justify-content: center;
   background-color: $dark-main-color;
@@ -12,47 +37,82 @@
 .footer-inner {
   width: 1200px;
   height: 100%;
+  padding: 1rem 2.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2.5rem;
+
+  .flex-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
+.footer-contact {
+  .description {
+    font-size: .7rem;
+  }
+}
+
 .list {
   display: flex;
-  gap: .5rem;
+  gap: 1rem;
   list-style: none;
 }
 
 .social-item {
-  width: 40px;
-  height: 40px;
-  border-radius: .5rem;
-  background-image: url('../../../assets/img/icons/instagram3.svg');
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid $light-primary-color;
   background-size: 40px 40px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 60%;
   cursor: pointer;
   transition: .3s;
 
   &:hover {
-    opacity: .7;
+    background-color: $light-primary-color;
+    background-size: 65%;
   }
 }
 
 .insta {
-  background-image: url('../../../assets/img/icons/instagram3.svg');
+  background-image: url('../../../assets/img/icons/instagram5.svg');
+
+  &:hover {
+    background-image: url('../../../assets/img/icons/instagram4.svg');
+  }
 }
 
 .fb {
-  background-image: url('../../../assets/img/icons/facebook2.svg');
+  background-image: url('../../../assets/img/icons/facebook5.svg');
+
+  &:hover {
+    background-image: url('../../../assets/img/icons/facebook4.svg');
+  }
 }
 
 .tik-tok {
-  background-image: url('../../../assets/img/icons/tik-tok2.svg');
+  background-image: url('../../../assets/img/icons/tik-tok5.svg');
+
+  &:hover {
+    background-image: url('../../../assets/img/icons/tik-tok4.svg');
+  }
 }
 
 .link {
   width: 100%;
   height: 100%;
   display: block;
+}
+
+
+.footer-logo {
+  display: flex;
+  flex-direction: columns;
+  gap: 2rem;
 }

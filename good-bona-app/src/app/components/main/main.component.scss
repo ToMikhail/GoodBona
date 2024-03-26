@@ -1,11 +1,10 @@
 
 @import '../../styles/colors.scss';
 
-
 :host {
   width: 100%;
   max-width: 1200px;
-  // height: calc(100vh - 8.5rem);
+  min-height: calc(100vh - 18.75rem);
   padding: 0 2.5rem;
   display: flex;
   justify-content: center;
