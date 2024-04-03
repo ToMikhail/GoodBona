@@ -1,15 +1,125 @@
 @import '../../../../styles/colors.scss';
+@import '../../../../styles/fonts.scss';
 
-:host {
-  width: 100%;
-  // margin: 2rem 0;
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
 }
 
-.menu-img {
-  width: 100px;
-  height: 100px;
+.menu-wrapper-outer {
+  display: flex;
+  justify-content: center;
+}
+
+.group-wrapper,
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.group-wrapper {
+  justify-content: center;
 }
 
 .menu-wrapper {
+  width: 73%;
+  gap: 3rem;
+  flex: 1 1 45vw;
+}
+
+.group-list {
+  padding: 0;
+  font-family: "Source Sans 3";
   display: flex;
+  list-style: none;
+  border-radius: 2rem;
+  background-color: $light-ternary-color;
+
+
+  .group-list-item {
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      border-radius: 2rem;
+      color: $dark-ternary-color;
+      transition: .3s;
+      background-color: $dark-secondary-color;
+    }
+  }
+
+  .group-list-item.active {
+    border-radius: 2rem;
+    color: $light-main-color;
+    background-color: $light-primary-color;
+  }
+
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem
+}
+
+.menu-item-img-wrapper {
+  width: 6rem;
+  height: 6rem;
+
+  .menu-item-img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.menu-item-content-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+
+
+  .menu-item-content {
+    display: flex;
+    justify-content: space-between;
+
+    .menu-item-title {
+      margin: 0;
+      font-family: $fontSecond;
+      font-size: 1.5rem;
+      text-align: start;
+      text-transform: capitalize;
+    }
+
+    .price {
+      margin: 0;
+      font-weight: 700;
+      font-size: 1.5rem;
+      white-space: nowrap;
+
+      span {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .menu-item-description {
+
+    .description {
+      font-family: $fontSecond;
+      line-height: 1.5;
+      color: $dark-ternary-color;
+    }
+  }
 }

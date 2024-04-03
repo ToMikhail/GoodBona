@@ -1,121 +1,162 @@
 [
   {
-    "group": "food",
+    "group": "frytki",
     "type": "frytki",
     "name": "małe frytki",
-    "description": "pieczone ziemniaki / 100g",
-    "price": 9
+    "description": "Pieczone ziemniaki / 100g",
+    "price": 9,
+    "image": "../../../../../assets/img/ctnt/frytki.png"
   },
   {
-    "group": "food",
+    "group": "frytki",
     "type": "frytki",
     "name": "duże frytki",
-    "description": "pieczone ziemniaki / 200g",
-    "price": 15
+    "description": "Pieczone ziemniaki / 200g",
+    "price": 15,
+    "image": "../../../../../assets/img/ctnt/frytki.png"
   },
   {
-    "group": "food",
+    "group": "pielmieni",
     "type": "smażone pielmieni z mięsem",
     "name": "mała porcja",
     "description": "Pierogi smażone na głębokim tłuszczu / 100g",
-    "price": 12
+    "price": 12,
+    "image": "../../../../../assets/img/ctnt/pelmeni222.png"
   },
   {
-    "group": "food",
+    "group": "pielmieni",
     "type": "smażone pielmieni z mięsem",
     "name": "duża porcja",
     "description": "Pierogi smażone na głębokim tłuszczu / 200g",
-    "price": 18
+    "price": 18,
+    "image": "../../../../../assets/img/ctnt/pelmeni222.png"
   },
   {
-    "group": "food",
+    "group": "czebureki",
     "type": "czebureki",
     "name": "czeburek z mięsem",
-    "description": "smaczne ciasto z soczystym mięsnym nadzieniem / 250g",
-    "price": 15
+    "description": "Smaczne ciasto z soczystym mięsnym nadzieniem / 250g",
+    "price": 15,
+    "image": "../../../../../assets/img/ctnt/czebureki.png"
   },
   {
-    "group": "food",
+    "group": "czebureki",
     "type": "czebureki",
     "name": "czeburek z szynką i serem",
     "description": "Pyszne ciasto z kremowym nadzieniem mięsnym / 250g.",
-    "price": 13
+    "price": 13,
+    "image": "../../../../../assets/img/ctnt/czebureki.png"
   },
   {
-    "group": "food",
+    "group": "shawarma",
     "type": "Shawarmy z kurczaka",
     "name": "Shawarma z kurczaka mała",
     "description": "Pkurczak, sałata, ogórek, pomidor, marynowana cebula, sos opcjonalny (można dodawać dodatki) / 300g.",
-    "price": 15
+    "price": 15,
+    "image": "../../../../../assets/img/ctnt/szawarma.png"
   },
   {
-    "group": "food",
+    "group": "shawarma",
     "type": "Shawarma z kurczaka",
     "name": "Shawarmaz kurczaka duży",
     "description": "Pkurczak, sałata, ogórek, pomidor, marynowana cebula, sos opcjonalny (można dodawać dodatki) / 450g.",
-    "price": 20
+    "price": 20,
+    "image": "../../../../../assets/img/ctnt/szawarma.png"
   },
   {
-    "group": "food",
+    "group": "shawarma",
     "type": "Shawarma wołowa",
     "name": "Shawarma wołowa mała",
-    "description": "swołowina, sałata, ogórek, pomidor, marynowana cebula, sos opcjonalny (można dodawać dodatki) / 300g.",
-    "price": 22
+    "description": "Swołowina, sałata, ogórek, pomidor, marynowana cebula, sos opcjonalny (można dodawać dodatki) / 300g.",
+    "price": 22,
+    "image": "../../../../../assets/img/ctnt/szawarma2.png"
   },
   {
-    "group": "food",
+    "group": "naleśniki",
     "type": "Naleśniki z miesem",
     "name": "Naleśniki z szynka i serem",
     "description": "Każdy kęs to uczta dla kubków smakowych / 250g",
-    "price": 15
+    "price": 15,
+    "image": "../../../../../assets/img/ctnt/nalesniki.png"
   },
   {
-    "group": "food",
+    "group": "naleśniki",
     "type": "Naleśniki z miesem",
     "name": "Naleśniki z salami i serem",
     "description": "Świetny wybór dla tych, którzy uwielbiają połączenie słonych i serowych smaków / 250g",
-    "price": 15
+    "price": 15,
+    "image": "../../../../../assets/img/ctnt/nalesniki.png"
   },
   {
-    "group": "food",
+    "group": "naleśniki",
     "type": "Naleśniki z miesem",
     "name": "Naleśniki z kurczkiem i pieczarkami",
     "description": "Pyszne naleśniki z kurczakiem i pieczarkami - magiczne połączenie delikatnego ciasta i apetycznego nadzienia! / 250g",
-    "price": 15
+    "price": 15,
+    "image": "../../../../../assets/img/ctnt/nalesniki.png"
   },
   {
-    "group": "food",
+    "group": "naleśniki",
     "type": "naleśniki na słodko",
     "name": "naleśniki z twarogiem",
     "description": "Pyszny naleśnik z kremowym, delikatnym nadzieniem twarogowym / 200g",
-    "price": 12
+    "price": 12,
+    "image": "../../../../../assets/img/ctnt/nalesniki2.png"
   },
   {
-    "group": "food",
+    "group": "naleśniki",
     "type": "naleśniki na słodko",
     "name": "naleśnik ze słodkimi sosami",
-    "description": "naleśnik na słodko z syropem do wyboru / 120g",
-    "price": 8
+    "description": "Naleśnik na słodko z syropem do wyboru / 120g",
+    "price": 8,
+    "image": "../../../../../assets/img/ctnt/nalesniki2.png"
   },
   {
-    "group": "food",
+    "group": "gofry",
     "type": "gofry",
     "name": "gofry wiedeńskie",
     "description": "Delikatne ciasto łączy się z waniliowym smakiem, a każdy kęs to mały kawałek radości / 100g",
-    "price": 12
+    "price": 12,
+    "image": "../../../../../assets/img/ctnt/gofry.png"
   },
   {
-    "group": "food",
+    "group": "gofry",
     "type": "gofry",
     "name": "gofry wiedeńskie z bitą śmietaną",
     "description": "Delikatne ciasto łączy się z waniliowym smakiem, a każdy kęs to mały kawałek radości / 150g",
-    "price": 15
+    "price": 15,
+    "image": "../../../../../assets/img/ctnt/gofry.png"
   },
   {
-    "group": "drinks",
-    "type": "gofry",
-    "name": "gofry wiedeńskie z bitą śmietaną",
-    "description": "Delikatne ciasto łączy się z waniliowym smakiem, a każdy kęs to mały kawałek radości / 150g",
-    "price": 15
+    "group": "napoje",
+    "type": "napoje",
+    "name": "Pepsi, 7up, Mirinda",
+    "description": "0.33 l",
+    "price": 7,
+    "image": "../../../../../assets/img/ctnt/napoje.png"
+  },
+  {
+    "group": "napoje",
+    "type": "napoje",
+    "name": "Lipton tea",
+    "description": "0.5 l",
+    "price": 8,
+    "image": "../../../../../assets/img/ctnt/pepsi.png"
+  },
+  {
+    "group": "napoje",
+    "type": "napoje",
+    "name": "Soki różne",
+    "description": "0.3 l",
+    "price": 8,
+    "image": "../../../../../assets/img/ctnt/napoje.png"
+  },
+  {
+    "group": "napoje",
+    "type": "napoje",
+    "name": "Woda (gazowana, niegazowana) ",
+    "description": "0.5 l",
+    "price": 5,
+    "image": "../../../../../assets/img/ctnt/napoje.png"
   }
 ]

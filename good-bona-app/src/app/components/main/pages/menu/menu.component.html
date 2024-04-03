@@ -1,8 +1,38 @@
-<h2>Nasze menu:</h2>
+<div class="menu-inner">
+  <h2 class="title">GooD menu</h2>
 
-<div class="menu-wrapper">
-  <div class="menu-item" *ngFor="let product of products | async">
-    <img class="img menu-img" [src]="product.image" alt="">
-    <h3>{{ product.name }}</h3>
+  <div class="group-wrapper">
+    <ul class="group-list">
+      <li class="group-list-item" [ngClass]="{'active': tabName === item10.textContent}" (click)="getGroup($event)">
+        <span #item10>all</span>
+      </li>
+      <li class="group-list-item" *ngFor="let group of productGroups$ | async; let i = index"
+        [ngClass]="{'active': tabName === i}" (click)="getGroup($event, i)">
+        {{ group }}
+      </li>
+    </ul>
+
   </div>
+  <div class="menu-wrapper-outer">
+
+    <div class="menu-wrapper">
+      <div class="menu-item" *ngFor="let product of products">
+
+        <div class="menu-item-img-wrapper">
+          <img class="img menu-item-img" [src]="product.image" [alt]="product.name" [title]="product.name">
+        </div>
+        <div class="menu-item-content-wrapper">
+          <div class="menu-item-content">
+            <h3 class="menu-item-title">{{ product.name }}</h3>
+            <p class="price">...... {{ product.price }} <span>zl</span></p>
+          </div>
+          <div #item class="menu-item-description">
+            <p class="description">{{ product.description }}</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
 </div>
