@@ -1,7 +1,15 @@
 @import "../../../../styles/colors.scss";
 
+.container {
+  display: flex;
+  flex-direction:column;
+  justify-content: end;
+  align-items: flex-end;
+}
+
 .title {
-  text-align: center;
+  padding-right: .7rem;
+  text-align: end;
 }
 
 table {

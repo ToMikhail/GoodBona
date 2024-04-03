@@ -46,11 +46,23 @@ ul {
     flex: 1;
     display: flex;
     flex-direction: column;
+
+  }
+
+  .footer-logo {
     align-items: center;
   }
 }
 
 .footer-contact {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+
+  .title {
+    padding-left: .7rem;
+  }
+
   .description {
     font-size: .7rem;
   }
