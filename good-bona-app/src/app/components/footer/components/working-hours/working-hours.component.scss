@@ -8,13 +8,14 @@
 }
 
 .title {
+  margin-bottom: .5rem;
   padding-right: .7rem;
   text-align: end;
 }
 
 table {
   font-size: smaller;
-  border-spacing: .75rem;
+  border-spacing: .5rem;
 
   .name {
     color: $dark-ternary-color;
