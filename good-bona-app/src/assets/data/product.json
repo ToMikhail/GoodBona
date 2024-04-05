@@ -18,7 +18,7 @@
   {
     "group": "pielmieni",
     "type": "smażone pielmieni z mięsem",
-    "name": "mała porcja",
+    "name": "małe pielmieni",
     "description": "Pierogi smażone na głębokim tłuszczu / 100g",
     "price": 12,
     "image": "assets/img/ctnt/pelmeni.jpg"
@@ -26,7 +26,7 @@
   {
     "group": "pielmieni",
     "type": "smażone pielmieni z mięsem",
-    "name": "duża porcja",
+    "name": "duże pielmieni",
     "description": "Pierogi smażone na głębokim tłuszczu / 200g",
     "price": 18,
     "image": "assets/img/ctnt/pelmeni.jpg"

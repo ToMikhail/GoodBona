@@ -1,14 +1,27 @@
 @import '../../../styles/colors.scss';
 
-:host {
-  color: $dark-secondary-color;
-}
-
 .btn {
-  background-color: $light-primary-color;
   padding: 1rem 2rem;
   border: none;
   border-radius: 2rem;
+  background-color: $light-primary-color;
+  color: $light-main-color;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: .3s;
 
+  &:hover {
+    background-color: $light-secondary-color;
+  }
+
+  &> ::ng-deep span:nth-child(1) {
+    vertical-align: middle;
+    margin-right: .5rem;
+  }
+
+  &> ::ng-deep span:nth-child(2) {
+    font-weight: bold;
+    vertical-align: middle;
+  }
 }
-
