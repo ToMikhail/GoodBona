@@ -3,7 +3,7 @@
 
 .home-outer {
   width: 100vw;
-  height: 50rem;
+  height: calc(100vh - 15rem);
   background-image: url('/assets/img/ctnt/2.png');
   background-repeat: no-repeat;
   background-size: cover;
