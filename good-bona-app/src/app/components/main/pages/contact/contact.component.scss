@@ -1,0 +1,75 @@
+@import '../../../../styles/colors.scss';
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.contact-list {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+
+  .contact-list-item {
+    padding: 1rem;
+    background-color: $light-ternary-color;
+    border-radius: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    h4 {
+      margin: 0.5rem;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+    }
+
+    h4::before {
+      content: " ";
+      display: block;
+      width: 100%;
+      height: 2rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-bottom: 1rem;
+    }
+
+
+
+    p {
+      margin: .5rem;
+      line-height: 2rem;
+    }
+  }
+
+  .location {
+    &>h4::before {
+      background-image: url("/assets/img/icons/map-location.svg");
+    }
+  }
+  .phone {
+    &>h4::before {
+      background-image: url("/assets/img/icons/phone.svg");
+    }
+  }
+  .email {
+    &>h4::before {
+      background-image: url("/assets/img/icons/email.svg");
+    }
+  }
+}
+
+.map-container {
+  margin-bottom: 2.5rem;
+  iframe {
+    width: 100%;
+  }
+}
