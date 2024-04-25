@@ -3,7 +3,9 @@
     <app-logo></app-logo>
     <app-header-nav-bar></app-header-nav-bar>
 
-    <app-social></app-social>
+    <ng-container *ngIf="(screenWidth$ | async) === 'desktop'">
+      <app-social></app-social>
+    </ng-container>
     <app-connection></app-connection>
   </div>
 </div>
