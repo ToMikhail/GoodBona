@@ -7,6 +7,7 @@ import { ConnectionComponent } from './componets/connection/connection.component
 import { HeaderNavBarComponent } from './componets/header-nav-bar/header-nav-bar.component';
 import { LogoComponent } from './componets/logo/logo.component';
 import { ScreenSize } from '../../services/screen-width.service';
+import { MenuButtonComponent } from '../shared/menu-button/menu-button.component';
 
 
 @Component({
@@ -18,6 +19,7 @@ import { ScreenSize } from '../../services/screen-width.service';
     HeaderNavBarComponent,
     SocialComponent,
     ConnectionComponent,
+    MenuButtonComponent
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',

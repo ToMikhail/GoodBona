@@ -1,4 +1,8 @@
-<ul class="list">
+<input id="menu-toggle" type="checkbox" [checked]="isChecked" (change)="isChecked = !isChecked"/>
+<label class='menu-button-container' for="menu-toggle">
+  <div class='menu-button'></div>
+</label>
+<ul class="list" (click)="switchState()">
   <li class="list-item">
     <a class="link" [routerLink]="['']" [routerLinkActive]="['router-link-active']"
       [routerLinkActiveOptions]="{exact: true}" alt="home">

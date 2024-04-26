@@ -6,6 +6,8 @@
     <ng-container *ngIf="(screenWidth$ | async) === 'desktop'">
       <app-social></app-social>
     </ng-container>
-    <app-connection></app-connection>
+    <ng-container *ngIf="(screenWidth$ | async) === ('desktop')">
+      <app-connection></app-connection>
+    </ng-container>
   </div>
 </div>
