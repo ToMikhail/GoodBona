@@ -2,7 +2,7 @@
 
 .container {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: end;
   align-items: flex-end;
 }
@@ -19,5 +19,31 @@ table {
 
   .name {
     color: $dark-ternary-color;
+  }
+}
+
+
+@media (max-width: 680px) {
+  .container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    table {
+      width: 100%;
+      border-spacing: 3rem .5rem;
+
+      tr {
+        td:nth-child(2) {
+          text-align: end;
+        }
+      }
+    }
   }
 }

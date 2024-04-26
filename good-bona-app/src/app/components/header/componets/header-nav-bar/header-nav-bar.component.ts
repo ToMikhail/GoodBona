@@ -15,8 +15,6 @@ export class HeaderNavBarComponent {
   public isChecked: Boolean = false;
 
   public switchState() {
-    console.log('this.isChecked before: ', this.isChecked);
     this.isChecked = !this.isChecked
-    console.log('this.isChecked: ', this.isChecked);
   }
 }

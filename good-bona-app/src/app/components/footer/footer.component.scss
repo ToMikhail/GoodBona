@@ -132,3 +132,36 @@ ul {
     margin-top: 1rem;
   }
 }
+
+@media (max-width: 680px) {
+  .footer-inner {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    order: 1;
+  }
+
+  .footer-contact {
+    order: 2;
+    border-top: 2px solid $dark-primary-color;
+    border-bottom: 2px solid $dark-primary-color;
+    padding-bottom: 1.5rem;
+  }
+
+  .working-hours {
+    order: 3;
+  }
+
+  .footer-logo,
+  .footer-contact,
+  .working-hours {
+    width: 100%;
+    align-items: center;
+
+    table {
+      border-spacing: 1rem 0;
+      padding-bottom: 1rem;
+    }
+  }
+}
