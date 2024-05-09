@@ -23,6 +23,9 @@ enum TabTypes {
   styleUrl: './menu.component.scss',
 })
 export class MenuComponent implements OnInit {
+
+  public title: string = 'all';
+  public isDropDownActive: boolean = false;
   public tabName: string | number = 'all';
   public productService = inject(ProductService);
   public productGroups$?: any;
@@ -46,8 +49,11 @@ export class MenuComponent implements OnInit {
   }
 
   public getGroup($event: Event, i: any = 'all'): any {
+
     this.tabName = i;
     this.currentGroup = ($event.target as HTMLElement).textContent;
+    this.title = this.currentGroup;
+    this.isDropDownActive = !this.isDropDownActive;
 
     this.productService.getProducts().subscribe((products: IProduct[]) => {
       if (this.currentGroup.trim() === 'all')  this.products = products;
@@ -58,5 +64,10 @@ export class MenuComponent implements OnInit {
           );
         }
     });
+  }
+
+  onChange () {
+    this.isDropDownActive = !this.isDropDownActive;
+    console.log('hell');
   }
 }

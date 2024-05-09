@@ -2,15 +2,23 @@
   <h2 class="title">GooD menu</h2>
 
   <div class="group-wrapper">
-    <ul class="group-list">
-      <li class="group-list-item" [ngClass]="{'active': tabName === item10.textContent}" (click)="getGroup($event)">
-        <span #item10>all</span>
-      </li>
-      <li class="group-list-item" *ngFor="let group of productGroups$ | async; let i = index"
-        [ngClass]="{'active': tabName === i}" (click)="getGroup($event, i)">
-        {{ group }}
-      </li>
-    </ul>
+    <nav>
+
+      <label for="touch" id="label">
+        <span id="label-dropdown" [ngClass]="{'active': isDropDownActive}">{{title}}</span>
+      </label>
+      <input type="checkbox" name="touch" id="touch" (change)="onChange()" [ngClass]="{'active': isDropDownActive}">
+
+      <ul class="group-list">
+        <li class="group-list-item" [ngClass]="{'active': tabName === item10.textContent}" (click)="getGroup($event)">
+          <span #item10>all</span>
+        </li>
+        <li class="group-list-item" *ngFor="let group of productGroups$ | async; let i = index"
+          [ngClass]="{'active': tabName === i}" (click)="getGroup($event, i)">
+          {{ group }}
+        </li>
+      </ul>
+    </nav>
 
   </div>
   <div class="menu-wrapper-outer">
