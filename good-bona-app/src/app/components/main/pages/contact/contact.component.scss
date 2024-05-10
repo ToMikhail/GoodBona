@@ -83,3 +83,18 @@
     width: 100%;
   }
 }
+
+@media (max-width:768px) {
+  .contact-list {
+    flex-direction: column;
+
+    .contact-list-item {
+      padding-left: 15%;
+      padding-right: 15%;
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
