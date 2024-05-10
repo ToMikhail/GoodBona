@@ -26,6 +26,7 @@
 }
 
 .group-wrapper {
+  padding-top: 0;
   justify-content: center;
 }
 
@@ -138,6 +139,10 @@
   display: none;
 }
 
+.dotted {
+  color: $dark-secondary-color;
+}
+
 @media (max-width: 992px) {
   .group-list {
 
@@ -147,17 +152,17 @@
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
 
   #label-dropdown {
     display: block;
-    padding: 30px;
+    padding: .8rem 1.5rem;
     background: $light-ternary-color;
     color: $dark-main-color;
-    font-size: 1.2rem;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
+    z-index: 0;
     cursor: pointer;
   }
 
@@ -171,10 +176,11 @@
   nav {
     width: 100%;
     background: #d9d9d9;
-    ;
+    position: relative;
   }
 
   .group-list {
+    position: absolute;
     border-radius: 0;
     margin: 0;
     flex-direction: column;
@@ -201,14 +207,76 @@
   }
 
   .menu-wrapper {
-    flex-direction: column;
+    // flex-direction: column;
   }
 
-  #touch.active + .group-list {
+  #touch.active+.group-list {
     height: 25rem;
   }
 
-    #label-dropdown.active::after {
-      transform: rotate(180deg);
+  #label-dropdown.active::after {
+    transform: rotate(180deg);
+  }
+
+  .menu-item-img-wrapper {
+    width: 5rem;
+    height: 5rem;
+
+    .menu-item-img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  .menu-item-content-wrapper {
+
+    .menu-item-content {
+
+      .menu-item-title {
+        font-size: 1.2rem;
+      }
+
+      .price {
+        font-size: 1.2rem;
+
+        span {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 639px) {
+
+  .menu-item {
+    width: 100%;
+  }
+  .menu-item-img-wrapper {
+    width: 5rem;
+    height: 5rem;
+
+    .menu-item-img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  .menu-item-content-wrapper {
+
+    .menu-item-content {
+
+      .menu-item-title {
+
+      }
+
+      .price {
+
+      }
+    }
   }
 }

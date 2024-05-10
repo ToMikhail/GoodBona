@@ -32,7 +32,9 @@
         <div class="menu-item-content-wrapper">
           <div class="menu-item-content">
             <h3 class="menu-item-title">{{ product.name }}</h3>
-            <p class="price">...... {{ product.price }} <span>zl</span></p>
+            <p class="price">
+              <span class="dotted"> .....</span> {{ product.price }} <span>zl</span>
+            </p>
           </div>
           <div #item class="menu-item-description">
             <p class="description">{{ product.description }}</p>
