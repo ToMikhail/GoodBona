@@ -23,21 +23,20 @@ table {
 }
 
 
-@media (max-width: 680px) {
+@media (max-width: 768px) {
   .container {
-    width: 100%;
     justify-content: center;
     align-items: center;
 
     div {
-      width: 100%;
       display: flex;
       justify-content: center;
     }
 
     table {
       width: 100%;
-      border-spacing: 3rem .5rem;
+      border-spacing: 11rem .5rem;
+      white-space: nowrap;
 
       tr {
         td:nth-child(2) {
