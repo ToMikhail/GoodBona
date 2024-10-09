@@ -1,1 +1,13 @@
-<p>header works!</p>
+<div class="header-outer">
+  <div class="header-inner">
+    <app-logo></app-logo>
+    <app-header-nav-bar></app-header-nav-bar>
+
+    <ng-container *ngIf="(screenWidth$ | async) === 'desktop'">
+      <app-social></app-social>
+    </ng-container>
+    <ng-container *ngIf="(screenWidth$ | async) === ('desktop')">
+      <app-connection></app-connection>
+    </ng-container>
+  </div>
+</div>

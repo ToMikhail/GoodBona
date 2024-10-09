@@ -1,0 +1,22 @@
+@import '../../../styles/colors.scss';
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+
+  a {
+    cursor: pointer;
+
+    svg {
+      transition: .3s;
+    }
+
+    &:hover {
+      svg {
+        transform:  translateY(-.4rem);
+        fill: $light-primary-color;
+      }
+    }
+  }
+}

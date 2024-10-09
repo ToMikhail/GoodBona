@@ -1,0 +1,49 @@
+@import "../../../../styles/colors.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.title {
+  margin-bottom: .5rem;
+  padding-right: .7rem;
+  text-align: end;
+}
+
+table {
+  font-size: smaller;
+  border-spacing: .5rem;
+
+  .name {
+    color: $dark-ternary-color;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      display: flex;
+      justify-content: center;
+    }
+
+    table {
+      width: 100%;
+      border-spacing: 11rem .5rem;
+      white-space: nowrap;
+
+      tr {
+        td:nth-child(2) {
+          text-align: end;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+
+@import '../../styles/colors.scss';
+
+:host {
+  width: 100%;
+  // max-width: 1200px;
+  min-height: calc(100vh - 15.1rem);
+  // padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.main-inner {
+  display: flex;
+  justify-content: center;
+}

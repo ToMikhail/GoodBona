@@ -1,0 +1,13 @@
+@import './styles/colors.scss';
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $light-main-color;
+  overflow: hidden;
+}
+
+
+

@@ -1,0 +1,114 @@
+@import '../../../../../app/styles/colors.scss';
+@import '../../../../../app/styles/fonts.scss';
+
+h4 {
+  margin-top: 0;
+}
+
+.container {
+  background-image: url('../../../../../assets/img/ctnt/ingredients-utensils-near-pizza-dough.jpg');
+  width: 100vw;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.outer {
+  width: 100vw;
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 5rem 2.5rem;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-item {
+  width: 45%;
+}
+
+.bg-color {
+  background-color: $light-main-color;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text {
+  line-height: 2rem;
+  color: $dark-primary-color;
+}
+
+.text-light {
+  color: $light-main-color;
+}
+
+.highlight {
+  font-family: $fontSecond;
+  color: $light-primary-color;
+}
+
+.img {
+  padding: 2.5rem 0;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+#map {
+  width: auto;
+}
+
+.content-menu {
+  text-align: center;
+
+  p {
+    padding-bottom: 3rem;
+  }
+}
+
+@media(max-width:1024px) {
+
+  #map-frame {
+    width: 450px;
+    height: 300px;
+  }
+}
+
+@media(max-width:768px) {
+  .flex-item {
+    width: 100%;
+  }
+
+  .reverse {
+    flex-direction: column;
+  }
+
+  #map-frame {
+    width: 90vw;
+    height: 25rem;
+  }
+}

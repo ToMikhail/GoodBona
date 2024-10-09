@@ -1,0 +1,167 @@
+@import '../../styles/colors.scss';
+
+:host {
+  color: $light-main-color;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+table {
+  font-size: smaller;
+  border-spacing: .5rem;
+
+  .contact-name {
+    color: $dark-ternary-color;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.footer-outer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: $dark-main-color;
+
+}
+
+.footer-inner {
+  width: 1200px;
+  height: 100%;
+  padding: 0 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .flex-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .footer-logo {
+    align-items: center;
+  }
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+
+  .title {
+    padding-left: .7rem;
+  }
+
+  .description {
+    font-size: .7rem;
+  }
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.social-item {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid $light-primary-color;
+  background-size: 40px 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  cursor: pointer;
+  transition: .3s;
+
+  &:hover {
+    background-color: $light-primary-color;
+    background-size: 65%;
+  }
+}
+
+.insta {
+  background-image: url('../../../assets/img/icons/instagram5.svg');
+
+  &:hover {
+    background-image: url('../../../assets/img/icons/instagram4.svg');
+  }
+}
+
+.fb {
+  background-image: url('../../../assets/img/icons/facebook5.svg');
+
+  &:hover {
+    background-image: url('../../../assets/img/icons/facebook4.svg');
+  }
+}
+
+.tik-tok {
+  background-image: url('../../../assets/img/icons/tik-tok5.svg');
+
+  &:hover {
+    background-image: url('../../../assets/img/icons/tik-tok4.svg');
+  }
+}
+
+.link {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+.footer-logo {
+  display: flex;
+  flex-direction: columns;
+
+  object {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-inner {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    order: 1;
+  }
+
+  .footer-contact {
+    order: 2;
+    border-top: 2px solid $dark-primary-color;
+    border-bottom: 2px solid $dark-primary-color;
+    padding-bottom: 1.5rem;
+  }
+
+  .working-hours {
+    order: 3;
+  }
+
+  .footer-logo,
+  .footer-contact,
+  .working-hours {
+    width: 100%;
+    align-items: center;
+
+    table {
+      border-spacing: 1rem 0;
+      padding-bottom: 1rem;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+<div class="container">
+  <div class=""></div>
+  <div class="outer">
+    <div class="inner flex-container">
+      <div class="content flex-item">
+        <h4 class="title text-light">Welcome to <span class="highlight">{{ cafeName + "!"}}</span></h4>
+        <p class="text text-light">
+          At {{ cafeName }}, we're passionate about serving delicious food that brings joy to our customers' taste buds.
+          Established in 2024, we have been a beloved part of the community, providing quick and satisfying meals for
+          busy
+          individuals and families on the go.
+        </p>
+      </div>
+      <!-- <div class="img flex-item">
+        <img src="./assets/img/ctnt/cafe2.jpg" alt="cafe">
+      </div> -->
+    </div>
+  </div>
+  <div class="outer bg-color">
+    <div class="inner flex-container reverse">
+      <div class="content flex-item">
+        <h4 class="title text-center">Our Story</h4>
+        <p class="text">
+          Our journey began with a simple idea: to create a fast food cafe where quality meets convenience. We wanted to
+          offer an alternative to traditional fast food, focusing on fresh ingredients, bold flavors, and exceptional
+          service. From our humble beginnings as a small corner cafe to our current location, we've stayed true to our
+          roots while continuously striving to exceed our customers' expectations.
+        </p>
+      </div>
+      <div class="img flex-item">
+        <img src="./assets/img/ctnt/cafe1.jpg" alt="cafe">
+      </div>
+    </div>
+  </div>
+
+  <div class="outer ">
+    <div class="inner flex-container ">
+      <div class="content flex-item content-menu">
+        <h4 class="title text-light">Menu</h4>
+        <p class="text text-light">
+          Explore our diverse menu featuring a tempting selection of burgers, sandwiches, salads, wraps, and more. From
+          classic favorites to unique creations, there's something for everyone to enjoy. We're committed to using only
+          the freshest ingredients and preparing each dish with passion and precision. And don't forget to save room for
+          dessert – our indulgent treats are the perfect way to satisfy your sweet tooth.
+        </p>
+        <a [routerLink]="[ '/menu']">
+          <app-button>
+            <span title>get menu</span>
+          </app-button>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <div class="outer bg-color">
+    <div class="inner flex-container reverse">
+      <div class="content flex-item">
+        <h4 class="title text-center">Visit Us</h4>
+        <p class="text">
+          Located in the Krakow, {{ cafeName }} is your destination for delicious fast food done right. Whether
+          you're dining in, taking out, or ordering delivery, we're here to serve you with a smile. Join us today and
+          discover why {{ cafeName }} is the ultimate destination for food lovers everywhere!
+        </p>
+      </div>
+      <div class="img flex-item" id="map">
+        <iframe id="map-frame"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d759.4773589943812!2d19.922833122607827!3d50.06666848592687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b57750b6b1d%3A0xe83da3ef1c7cb9e9!2sGood%20Bona!5e1!3m2!1sen!2spl!4v1713878455053!5m2!1sen!2spl"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
