@@ -13,5 +13,6 @@ jobs:
         run: |
           echo "A second message"
           cd good-bona-app/
+          npm ci
           ng test
 
