@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print console
-        run: echo "I'm pretty cool"
+        run: | 
+          echo "A initial message"
+          cd good-bona-app 
 
