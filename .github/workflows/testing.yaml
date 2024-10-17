@@ -7,5 +7,5 @@ jobs:
       - name: Print console
         run: | 
           echo "A initial message"
-          cd ./good-bona-app
+          cd ./good-bona-app/
 
