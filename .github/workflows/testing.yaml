@@ -6,7 +6,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Print console
-        run: | 
+        run:
           echo "A initial message"
+
+      - name: test-run
+        run: |
+          echo "A second message"
           cd good-bona-app/
+          ng test
 
