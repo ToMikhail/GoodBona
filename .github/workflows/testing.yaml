@@ -3,6 +3,9 @@ on: workflow_dispatch
 jobs:
   run_test:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: good-bona-app
     steps:
       - name: Get repo
         uses: actions/checkout@v3
