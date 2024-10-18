@@ -4,15 +4,15 @@ jobs:
   run_test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Print console
-        run:
-          echo "A initial message"
+      - name: Get repo
+        uses: actions/checkout@v3
 
-      - name: test-run
+      - name: Install dependencies
+        run:  npm ci
+
+      - name: Test app
         run: |
           cd good-bona-app/
           echo "A second message"
-          npm i
-          ng test
+          npm run test
 
