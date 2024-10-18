@@ -15,7 +15,6 @@ jobs:
 
       - name: Test app
         run: |
-          cd good-bona-app/
           echo "A second message"
           npm run test
 
