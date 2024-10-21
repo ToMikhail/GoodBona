@@ -10,6 +10,9 @@ jobs:
       - name: Get repo
         uses: actions/checkout@v3
 
+      - name: Set up Node
+        uses: actions/setup-node@v3
+
       - name: Install Angular CLI
         run: npm install -g @angular/cli@17.0.0
 
