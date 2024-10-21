@@ -16,6 +16,9 @@ jobs:
       - name: Install dependencies
         run:  npm ci
 
+      - name: Build the UI
+        run: ng build -c production
+
       - name: Test app
         run: |
           echo "A second message"
