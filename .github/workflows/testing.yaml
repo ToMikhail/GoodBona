@@ -23,5 +23,4 @@ jobs:
         run: ng build -c production
 
       - name: Test app
-        run: ng test --no-watch --source-map=false --browsers=Chrome
-
+        run: ng test --no-watch --no-progress --source-map=false --browsers=ChromeHeadless
