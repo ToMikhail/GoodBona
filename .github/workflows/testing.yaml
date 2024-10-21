@@ -22,5 +22,5 @@ jobs:
       - name: Test app
         run: |
           echo "A second message"
-          ng test --no-watch --source-map=false --browsers=Chrome
+          ng test --no-watch --source-map=false --browsers=ChromeHeadlessCI
 
