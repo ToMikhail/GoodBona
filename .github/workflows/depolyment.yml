@@ -1,0 +1,11 @@
+name: Deployment to Firebase
+on: workflow_dispatch
+jobs:
+  name: Deployment to Firebase
+  runs-on: ubuntu-latest
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4.
+
+    - name: Set up Node.js
+      run: 
